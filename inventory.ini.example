@@ -1,0 +1,5 @@
+# Скопируйте в inventory.ini и подставьте хосты (inventory.ini в .gitignore).
+# Группа vault_instances — как в examples/site.yml.
+
+[vault_instances]
+vault-host ansible_host= ansible_user=root ansible_become=true
